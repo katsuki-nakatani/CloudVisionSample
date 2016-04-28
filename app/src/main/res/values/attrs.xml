@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatingView">
+        <attr name="text" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="Themes">
+        <attr name="RatingViewStyle" format="reference" />
+    </declare-styleable>
+</resources>

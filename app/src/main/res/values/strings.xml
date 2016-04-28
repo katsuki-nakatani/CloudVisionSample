@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CloudVision</string>
+    <string name="image_picker_error">picker error</string>
+    <string name="position_text">X:%1$f\nY:%2$f\nZ:%3$f</string>
+    <string name="angle">roll:%1$f°\npan:%2$f°\ntilt:%3$f°</string>
+    <string name="bounding_poly">show face area</string>
+    <string name="detection_confidence">detection confidence %f%%</string>
+    <string name="landmark_confidence">face parts confidence %f%%</string>
+    <string name="json_text_show">show original json</string>
+
+    <string name="joy">joy?</string>
+    <string name="sorrow">sorrow?</string>
+    <string name="anger">anger?</string>
+    <string name="surprise">surprise?</string>
+    <string name="underexposed">underexposed ?</string>
+    <string name="blurred">blurred ?</string>
+    <string name="headwear">head wear?</string>
+    <string name="adult">adult</string>
+    <string name="spoof">spoof</string>
+    <string name="medical">medical</string>
+    <string name="violence">violence</string>
+
+    <string name="face_annotation_error">Can not face recognition </string>
+    <string name="label_annotation_error">Can not label recognition </string>
+    <string name="text_annotation_error">Can not text recognition </string>
+    <string name="not_selected_image">picture not selected</string>
+
+    <string name="menu_camera">picture camera</string>
+    <string name="menu_gallery">load gallery</string>
+    <string name="menu_asset">load asset</string>
+    <string name="menu_original_json">show json</string>
+    <string name="vision_api_upload">calling cloud vision api!</string>
+    <string name="tweet_api_called">calling tweet api!</string>
+
+    <string name="label_detection">Label detection</string>
+    <string name="face_detection">Face detection</string>
+    <string name="text_detection">Text detection</string>
+    <string name="safe_search_detection">Safe Search</string>
+    <string name="joy_tweet">extra</string>
+    <string name="label_detection_result">This object is %1$s might.\n Trust rate is %2$f%%\n\n</string>
+    <string name="tweet_picture_on">include this photo to Tweet</string>
+    <string name="tweet_name">Nickname</string>
+    <string name="tweet_comment">Please Comment</string>
+    <string name="tweet">tweet!!</string>
+    <string name="not_likely">Sorry. more smile!</string>
+    <string name="likely">Thanks! your amazing smile!</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">CloudVision</string>
+    <string name="image_picker_error">イメージの取得に失敗しました</string>
+    <string name="position_text">縦X：%1$f\n横Y：%2$f\n奥行きZ：%3$f</string>
+    <string name="angle">ロール：%1$f°\nパン：%2$f°\nチルト：%3$f°</string>
+    <string name="bounding_poly">認識された顔の場所</string>
+    <string name="detection_confidence">認識の信頼度は%f%%です</string>
+    <string name="landmark_confidence">パーツ情報の信頼度は%f%%です</string>
+    <string name="json_text_show">JSONデータを表示する</string>
+    <string name="joy">楽しんでる?</string>
+    <string name="sorrow">悲しんでる?</string>
+    <string name="anger">怒ってる?</string>
+    <string name="surprise">驚いてる?</string>
+    <string name="underexposed">露出不足?</string>
+    <string name="blurred">ぼやけてる?</string>
+    <string name="headwear">なんか被ってる?</string>
+    <string name="adult">アダルト危険</string>
+    <string name="spoof">模造品</string>
+    <string name="medical">医療</string>
+    <string name="violence">暴力危険</string>
+    <string name="face_annotation_error">一つも顔を認識できませんでした</string>
+    <string name="label_annotation_error">一つも物体を認識できませんでした</string>
+    <string name="text_annotation_error">一つも文字を認識できませんでした</string>
+    <string name="not_selected_image">画像がまだ選択されていません</string>
+
+    <string name="menu_camera">カメラで撮影</string>
+    <string name="menu_gallery">ギャラリーからロード</string>
+    <string name="menu_asset">アセットからロード</string>
+    <string name="menu_original_json">JSONを表示</string>
+    <string name="vision_api_upload">Cloud Vision APIへリクエストを投げました</string>
+    <string name="tweet_api_called">Tweet APIへリクエストを投げました</string>
+
+    <string name="label_detection">物体認識</string>
+    <string name="face_detection">顔認識</string>
+    <string name="text_detection">テキスト認識</string>
+    <string name="safe_search_detection">セーフサーチ</string>
+    <string name="joy_tweet">おまけ</string>
+    <string name="label_detection_result">この物体は%1$sかもしれません。\n信頼率は%2$f%%です\n\n</string>
+    <string name="tweet_picture_on">この写真をTweetに含める</string>
+    <string name="tweet_name">ニックネーム</string>
+    <string name="tweet_comment">コメントをどうぞ</string>
+    <string name="tweet">tweetする</string>
+    <string name="not_likely">ごめんなさい。それぐらいの笑顔ではダメです</string>
+    <string name="likely">とびきりの笑顔をありがとうございます！</string>
+
+</resources>

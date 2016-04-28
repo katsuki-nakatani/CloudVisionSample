@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:minHeight="48dp"
+        android:id="@+id/face_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_margin="8dp"
+        android:id="@+id/detection_confidence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_margin="8dp"
+        android:id="@+id/landmarking_confidence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_margin="8dp"
+        android:id="@+id/angle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <org.gdgkobe.example.cloudvision.view.RatingView
+        android:id="@+id/joy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <org.gdgkobe.example.cloudvision.view.RatingView
+        android:id="@+id/sorrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <org.gdgkobe.example.cloudvision.view.RatingView
+        android:id="@+id/anger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <org.gdgkobe.example.cloudvision.view.RatingView
+        android:id="@+id/surprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <org.gdgkobe.example.cloudvision.view.RatingView
+        android:id="@+id/under_exposed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <org.gdgkobe.example.cloudvision.view.RatingView
+        android:id="@+id/blurred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <org.gdgkobe.example.cloudvision.view.RatingView
+        android:id="@+id/headwear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+</LinearLayout>
